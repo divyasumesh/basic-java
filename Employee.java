@@ -1,18 +1,20 @@
 package oops;
 
+/* another */
+
 import java.util.Scanner;
 
-public class Employee {
+public class Employees {
 	private int id,salary, deduction, netsalary;
 	String name;
 	int leaves;
 	
 	
-	public Employee()
+	public Employees()
 	{
 		leaves= 2;		
 	}
-	public Employee(int leave)
+	public Employees(int leave)
 	{
 		leaves=leave;
 	}
@@ -20,7 +22,7 @@ public class Employee {
 	public void setdata(int id,String names,int leaves, int salary)
 	{
 		Scanner s=new Scanner(System.in);
-		System.out.println("Enter Employee Id, Name, Number of leaves, Salary");
+		System.out.println("Enter Employees Id, Name, Number of leaves, Salary");
 		id =s.nextInt();
 		name=s.next();
 		leaves=s.nextInt();
