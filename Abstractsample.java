@@ -1,5 +1,7 @@
 package oops;
 
+/* added comment */
+
 public abstract class Abstractsample {
 	public String fname= "Divya";
 	public int age=25;
